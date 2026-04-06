@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+include .gitattributes
+include pyproject.toml
+recursive-include modeluploader *.py
+recursive-include tests *.py

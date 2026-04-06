@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modeluploader"
+version = "0.1.0"
+description = "A tool for uploading models to HuggingFace and ModelScope"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.7"
+authors = [
+    {name = "Maicarons", email = "maicarons@example.com"}
+]
+keywords = ["huggingface", "modelscope", "model", "upload", "machine-learning"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "huggingface-hub>=0.15.0",
+    "modelscope>=1.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black",
+    "flake8",
+]
+
+[project.scripts]
+modeluploader = "modeluploader.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Maicarons/modeluploader"
+Repository = "https://github.com/Maicarons/modeluploader"
+"Bug Tracker" = "https://github.com/Maicarons/modeluploader/issues"
+
+[tool.setuptools.packages.find]
+include = ["modeluploader*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
