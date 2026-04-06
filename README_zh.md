@@ -1,5 +1,10 @@
 # Model Uploader
 
+[![PyPI version](https://badge.fury.io/py/modeluploadhelper.svg)](https://pypi.org/project/modeluploadhelper/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/modeluploadhelper.svg)](https://pypi.org/project/modeluploadhelper/)
+[![License](https://img.shields.io/pypi/l/modeluploadhelper.svg)](https://github.com/Maicarons/modeluploader/blob/main/LICENSE)
+[![Downloads](https://pepy.tech/badge/modeluploadhelper)](https://pepy.tech/project/modeluploadhelper)
+
 一个支持 HuggingFace 和 ModelScope 双平台上传的 Python 工具。
 
 ## 功能特性
@@ -16,7 +21,7 @@
 ### 从 PyPI 安装（推荐）
 
 ```bash
-pip install modeluploader
+pip install modeluploadhelper
 ```
 
 ### 从源码安装

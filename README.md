@@ -1,5 +1,10 @@
 # Model Uploader
 
+[![PyPI version](https://badge.fury.io/py/modeluploadhelper.svg)](https://pypi.org/project/modeluploadhelper/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/modeluploadhelper.svg)](https://pypi.org/project/modeluploadhelper/)
+[![License](https://img.shields.io/pypi/l/modeluploadhelper.svg)](https://github.com/Maicarons/modeluploader/blob/main/LICENSE)
+[![Downloads](https://pepy.tech/badge/modeluploadhelper)](https://pepy.tech/project/modeluploadhelper)
+
 A Python tool for uploading models to both HuggingFace Hub and ModelScope.
 
 ## Features
@@ -16,7 +21,7 @@ A Python tool for uploading models to both HuggingFace Hub and ModelScope.
 ### From PyPI (Recommended)
 
 ```bash
-pip install modeluploader
+pip install modeluploadhelper
 ```
 
 ### From Source
